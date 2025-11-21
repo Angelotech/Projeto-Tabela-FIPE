@@ -1,5 +1,5 @@
 package Model;
-
+import java.util.*;
 import com.fasterxml.jackson.annotation.JsonAlias;
 
 public class Dados {
@@ -11,11 +11,6 @@ public class Dados {
     private String codigoFipe;
     private String mesDeReferencia;
     private String sigla;
-
-
-
-
-
 
 
     public String getValor() {
@@ -81,7 +76,6 @@ public class Dados {
     public void setSigla(String sigla) {
         this.sigla = sigla;
     }
-
 
     @Override
     public String toString() {
